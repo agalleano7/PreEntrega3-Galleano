@@ -1,0 +1,759 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    
+}
+
+
+
+.hero{
+    background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)) , url(./assets/imagenes/MartyBanner.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    width: auto;
+    height: 100vh;
+    z-index: -1;
+
+}
+
+.menunav {
+    position: sticky;
+    display: inline-block;
+    padding-left: 80px;
+    padding-top: 5px;
+    padding-right: 80px;
+    letter-spacing: 1px;
+    width: 100%;
+    
+    justify-content: space-around;
+    align-items: center;
+    font-size: 20px;
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+    list-style-type: none;
+}
+
+.navlist {
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 10px;
+    padding-left: 20px;
+    position: relative;
+
+}
+
+.navlinks {
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+    padding-left: 6px;
+    padding-right: 6px;
+    padding-top: 20px;
+    padding-bottom: 5px;
+    
+    position: relative;
+}
+
+
+.navlist .navlinks::after {
+    content: "";
+    width: 0;
+    height: 1px;
+    background-color: white;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transition: 0.3s ease-in;
+    
+}
+
+.navlist .navlinks:hover::after {
+    content: "";
+    width: 100%;
+    height: 1px;
+    background-color: white;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    
+
+}
+
+.logonav {
+    float: left;
+    position: relative;
+    
+}
+.sectionlanding {
+    width: 100%;
+    background-color: black;
+}
+
+
+.bio {
+        width: 30px;
+    height: 24px;
+    left: 506px;
+    top: 75px;
+
+}
+
+
+.contenedornewfilms {
+    padding-bottom: 200px;
+    
+}
+
+.newfilmstitle {
+    font-family: 'Libre Baskerville', italic;
+    color: #fff;
+    text-align: center;
+    font-size: 60px;
+    padding-top: 10%;
+    padding-bottom: 10%;
+
+}
+
+.newfilmstitle:hover {
+    opacity: 0.5;
+    transition: 200ms ease-in-out;
+}
+
+.titlefilms {
+    font-family: 'Raleway', sans-serif;
+    color: #fff;
+    font-size: 45px;
+    
+}
+
+.titlefilms:hover {
+    opacity: 0.5;
+    transition: 200ms ease-in-out;
+
+}
+
+
+.bookcontainer {
+    padding-bottom: 200px;
+}
+
+.img1 {
+    width: 650px;
+    height: 400px;
+    float: right;
+    margin-right:100px;
+}
+
+.img2 {
+    width: 620px;
+    height: 380px;
+    float: left;
+    margin-top: 150px;
+    margin-left:100px;
+    
+    
+
+
+}
+
+.img3 {
+    width: 650px;
+    height: 380px;
+    float: right;
+    margin-right:100px;
+    margin-top: 80px;
+    
+}
+
+
+.text {
+    font-family: 'Roboto', thin;
+    color: #fff;
+    margin-top: 30px;
+}
+
+.learnmore {
+    font-family: 'Space Mono';
+    color: #fff;
+    text-decoration: underline;
+    
+}
+
+.learnmore:hover {
+    opacity: 0.5;
+    transition: 200ms ease-in-out;
+
+}
+
+.sectionbook {
+    width: 100%;
+    background-color: black;
+}
+
+.booktitle {
+    font-family: 'Libre Baskerville', italic;
+    color: #fff;
+    text-align: center;
+    font-size: 60px
+}
+
+.booktitle:hover {
+    opacity: 0.5;
+    transition: 200ms ease-in-out;
+}
+
+.titlebooks {
+    font-family: 'Raleway', sans-serif;
+    color: #fff;
+    font-size: 35px;
+    padding-left: 55%;
+    margin-right: 300px;
+    margin-bottom: 3%;
+    
+    
+}
+
+.titlebooks:hover {
+    opacity: 0.5;
+    transition: 200ms ease-in-out;
+
+}
+.shopnow {
+    font-family: 'Space Mono';
+    color: #fff;
+    text-decoration: underline;
+    padding-left: 55%;
+    margin-right: 300px;
+   
+}
+
+.shopnow:hover {
+    opacity: 0.5;
+    transition: 200ms ease-in-out;
+
+}
+
+.bookimg {
+    width: 400px;
+    height: 600px;
+    float: left;
+    margin: 140px;
+    margin-top: 80px;
+
+    
+}
+
+.danieldaylewis {
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)) , url(./assets/imagenes/danielday_marty.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    width: auto;
+    height: 100vh;
+    z-index: -1;
+}
+
+.danielquote {
+    color: #fff;
+    text-align: center;
+    font-size: 45px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.danielname {
+    color: #fff;
+    text-align: right;
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+
+}
+
+.youtubetitle {
+    font-family: 'Libre Baskerville', italic;
+    color: #fff;
+    text-align: center;
+    font-size: 40px
+}
+
+.youtubetitle:hover {
+    
+    opacity: 0.5;
+    transition: 200ms ease-in-out;
+    
+}
+
+.sectionyoutube {
+         padding-bottom: 150px;
+         padding-top: 100px;
+        background-color: black;
+        
+}
+
+.diviframe {
+    margin-left: 100px;
+    margin-top: 100px;
+    margin-bottom: 120px;
+}
+
+.iframe {
+   
+    margin-top: 150px;
+    margin-bottom: 150px;
+    justify-content: center;
+}
+
+.navbio {
+    background-color: black;
+}
+
+.sectionearlylife {
+    background-color: black;
+}
+
+
+
+.marty10 {
+    position: relative;
+    display: flex;
+    
+    box-sizing: border-box;
+    width: 500px;
+    height: 700px;
+    align-items: center;
+    margin-left: 450px;
+    
+    
+    
+}
+
+.earlylife {
+    background-color: black;
+    padding-bottom: 200px;
+    
+}
+
+.earlylifetitle {
+    font-family: 'Raleway', sans-serif;
+    color: #fff;
+    font-size: 70px;
+    text-align: center;
+    
+}
+
+.earlylifetitle:hover {
+    opacity: 0.5;
+    transition: 200ms ease-in-out;
+
+}
+
+.img80s {
+    margin-left: 100px;
+    width: 40%;
+    height: 40%;
+    float: left;
+    margin-left: 10% ;
+    
+
+}
+
+.textearlylife {
+    
+        font-family: 'Roboto', thin;
+        color: #fff;
+        
+        padding-left: 55%;
+        padding-top: 100px;
+        padding-right: 15%;
+
+        
+        
+    
+}
+
+
+
+.seven {
+    background-color: black;
+    
+
+}
+
+.text70s {
+    
+    font-family: 'Roboto', thin;
+    color: #fff;
+    
+    padding-left: 15%;
+    padding-top: 50px;
+    padding-right: 55%;
+
+    
+    
+
+}
+
+.imgearlylife {
+    margin-right: 100px;
+    width: 40%;
+    height: 40%;
+    float: left;
+    margin-left: 10% ;
+    
+
+}
+
+.img70s {
+    margin-right: 100px;
+    width: 40%;
+    height: 40%;
+    float: right;
+    margin-right: 10% ;
+    margin-left: 20px;
+    padding-top: 100px;
+    
+}
+
+.img70s2 {
+    margin-right: 100px;
+    width: 40%;
+    height: 40%;
+    float: right;
+    margin-right: 10% ;
+    margin-left: 20px;
+    padding-top: 100px;
+    
+
+}
+
+.eight {
+    background-color: black;
+    
+
+}
+
+.img80s {
+    margin-left: 100px;
+    width: 40%;
+    height: 40%;
+    float: left;
+    margin-left: 10% ;
+    margin-top: 110px;
+    
+
+}
+
+
+.text80s {
+    font-family: 'Roboto', thin;
+    color: #fff;
+    
+    padding-left: 55%;
+   
+    padding-right: 15%;
+
+}
+
+.eighttitle {
+    font-family: 'Raleway', sans-serif;
+    color: #fff;
+    font-size: 70px;
+    text-align: center;
+    
+    
+}
+
+.eighttitle:hover {
+    opacity: 0.5;
+    transition: 200ms ease-in-out;
+
+}
+
+
+.nine {
+   
+        background-color: black;
+        
+    
+    
+}
+
+
+.ninetitle {
+    font-family: 'Raleway', sans-serif;
+    color: #fff;
+    font-size: 70px;
+    text-align: center;
+    
+    
+}
+
+.ninetitle:hover {
+    opacity: 0.5;
+    transition: 200ms ease-in-out;
+
+}
+
+
+.img90s {
+    margin-right: 100px;
+    width: 40%;
+    height: 40%;
+    float: right;
+    margin-right: 10% ;
+    margin-left: 20px;
+    padding-top: 100px;
+    
+
+}
+
+.text90s {
+    font-family: 'Roboto', thin;
+    color: #fff;
+    
+    padding-left: 15%;
+    padding-top: 50px;
+    padding-right: 55%;
+}
+
+.zero {
+    background-color: black;
+    
+
+}
+
+.zerotitle {
+    font-family: 'Raleway', sans-serif;
+    color: #fff;
+    font-size: 70px;
+    text-align: center;
+
+}
+
+.zerotitle:hover {
+    opacity: 0.5;
+    transition: 200ms ease-in-out;
+}
+
+.img00 {
+    margin-left: 100px;
+    width: 40%;
+    height: 40%;
+    float: left;
+    margin-left: 10% ;
+    margin-top: 110px;
+
+}
+
+.text00s {
+    font-family: 'Roboto', thin;
+    color: #fff;
+    
+    padding-left: 55%;
+   
+    padding-right: 15%;
+
+}
+
+.ten 
+    {
+   
+        background-color: black;
+        padding-bottom: 200px;
+    
+    
+}
+
+
+.tentitle {
+    font-family: 'Raleway', sans-serif;
+    color: #fff;
+    font-size: 70px;
+    text-align: center;
+    padding-bottom: 100px;
+    
+    
+}
+
+.tentitle:hover {
+    
+        opacity: 0.5;
+        transition: 200ms ease-in-out;
+    
+    
+
+}
+
+.img10s {
+    margin-left: 100px;
+    width: 40%;
+    height: 40%;
+    float: left;
+    margin-left: 10% ;
+    padding-top: 200px;
+}
+
+
+.text10s {
+    font-family: 'Roboto', thin;
+    color: #fff;
+    
+    padding-left: 55%;
+   
+    padding-right: 15%;
+}
+
+.legacy {
+    background-color: black;
+    padding-bottom: 300px;
+
+}
+
+.legacytitle {
+    font-family: 'Raleway', sans-serif;
+    color: #fff;
+    font-size: 70px;
+    text-align: center;
+    
+    
+}
+
+.legacytitle:hover {
+    opacity: 0.5;
+    transition: 200ms ease-in-out;
+
+}
+
+
+
+.imglegacy {
+    margin-right: 100px;
+    width: 40%;
+    height: 40%;
+    float: right;
+    margin-right: 10% ;
+    margin-left: 20px;
+    padding-top: 100px;
+
+}
+
+
+.textlegacy {
+
+    font-family: 'Roboto', thin;
+    color: #fff;
+    
+    padding-left: 15%;
+    padding-top: 100px;
+    padding-right: 55%;
+}
+
+
+.sectionfilms {
+    background-color: black;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footerall {
+    border-top-width: 1px;
+    border-top-style: solid;
+    border-color: grey ;
+}
+
+.footer {
+    background-color: black;
+    font-family: 'Raleway', sans-serif;
+    border-top-style: solid;
+    border-top-width: 0.2px;
+    
+    
+
+
+}
+
+.footer .socials  {
+    text-align: center;
+    padding-bottom: 25px;
+    color: #fff;
+
+}
+
+
+
+.logoigfb {
+    color: white;
+    font-size: 30px;
+    line-height: 38px;
+    display: inline-block;
+    text-align: center;
+    margin-right: 15px;
+    margin-left: 15px;
+    opacity: 0.75;
+    padding-top: 30px;
+
+}
+
+.logoigfb:hover {
+    opacity: 0.95;    
+}
+
+.linksfooter {
+    text-decoration: none;
+    color: #fff;
+    text-align: center;
+    display: inline-block;
+    opacity: 0.8;
+}
+
+.linksfooter:hover {
+    opacity: 1;
+}
+
+.list {
+    margin-top: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 17px;
+    line-height: 1.6;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.copyright {
+    color: grey;
+    font-size: 13px;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    opacity: 0.8;
+
+}
